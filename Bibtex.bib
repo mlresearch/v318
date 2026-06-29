@@ -218,7 +218,7 @@ conference_url ={https://www.caiac.ca/en/conferences/canadianai-2026/home}
 
 @inproceedings{keisham26,
   title = {ConTrans: Learning Text-enhanced Local–global Temporal  Representations for Zero-shot Temporal Action Localization},
-  author = {keisham, Kanchan and Thangarajah, Akilan and Thenukan, Pathmanathan},
+  author = {Keisham, Kanchan and Thangarajah, Akilan and Thenukan, Pathmanathan},
   pages = {354--365},
   abstract = {Zero-shot Temporal Action Localization (ZS-TAL) aims to detect and locate previously unseen actions in untrimmed videos. However, existing approaches primarily focus on modeling long-range contextual information, often neglecting the critical relative-offset-based local correlations between video frames. Furthermore, their performance is hindered by limited feature representation capabilities due to the shallow nature of their network architectures. In this paper, we address these limitations by introducing a novel local-global multi-scale feature representation module. We propose a novel multi-scale encoder architecture, termed ConTrans, that integrates convolutional (Conv) inductive biases with transformer Self-attention to jointly capture fine-grained local dependencies and long-range global context, leading to more comprehensive feature representations than existing methods. Experimental evaluations on the ActivityNet-1.3 and THU-MOS14 datasets demonstrate that ConTrans significantly outperforms existing methods, establishing a new benchmark for ZS-TAL.}
 }
@@ -295,7 +295,7 @@ conference_url ={https://www.caiac.ca/en/conferences/canadianai-2026/home}
 
 @inproceedings{kraiem26,
   title = {Vulnerability of machine learning models for gender recognition in Virtual Reality},
-  author = {kraiem, Emna and Davoust, Alan},
+  author = {Kraiem, Emna and Davoust, Alan},
   pages = {502--513},
   abstract = {Virtual Reality (VR) systems continuously capture fine-grained behavioral signals such as head motion, hand trajectories, and gaze dynamics. These spatio-temporal signals have been shown to contain distinctive patterns enabling accurate gender classification through machine learning models. While predictive performance under nominal conditions is often high, the robustness of such models to structured behavioral perturbations remains largely unexplored.  In this paper, we present a systematic robustness analysis of VR-based gender classification models under a comprehensive catalog of realistic behavioral adversarial attacks. We evaluate multiple model families, including ensemble-based tabular classifiers and neural architectures, using statistical and dynamic motion features extracted from public VR datasets. More than one hundred perturbation scenarios targeting metric coherence, global motion style, multimodal synchronization, and latent behavioral structure are assessed using balanced accuracy, flip rate, and confidence stability metrics. Our results reveal significant vulnerability to coordinated, structurally consistent attacks, particularly those affecting global motion properties or metric integrity, while localized noise-like perturbations exhibit limited impact. These findings demonstrate that high nominal accuracy does not guarantee robustness and highlight the necessity of robustness-aware evaluation frameworks for VR-based behavioral inference systems.}
 }
@@ -365,7 +365,7 @@ conference_url ={https://www.caiac.ca/en/conferences/canadianai-2026/home}
 
 @inproceedings{sadig26,
   title = {CEAR: Certified Ensemble Adversarial Robustness in DNNs},
-  author = {Sadig, Daniel and Maleki, Mohammadreza and Karimi, Hamed and samavi, Reza},
+  author = {Sadig, Daniel and Maleki, Mohammadreza and Karimi, Hamed and Samavi, Reza},
   pages = {624--635},
   abstract = {Deep Neural Networks (DNNs) are highly susceptible to adversarial perturbations, leading to extensive research on robustness for safety-critical applications. State-of-the-art empirical defense mechanisms improve the robustness of DNNs through the training phase, but still struggle against adaptive white-box attacks. On the other hand, certified defenses offer provable guarantees of robustness within a specified perturbation bound. These guarantees hold regardless of the level of perturbations, even if the attacker is given full knowledge of the model. In this paper, we propose CEAR, an ensemble-based robust method that utilizes a hybrid of empirical and certified defense mechanisms. CEAR trains each network within the ensemble using varying Gaussian noise and temperatures to obfuscate gradients and logits, making the model more resistant to stronger gradient-based attacks. We then use noisy logits and propose two different voting mechanisms to further improve robustness. Furthermore, we extend randomized smoothing to verify the robustness of ensemble-based classifiers. Our experimental evaluations on MNIST, CIFAR10, and TinyImageNet datasets demonstrate superior certified accuracy on average, increased robustness radius, and decreased transferability compared to baseline methods.}
 }
@@ -652,7 +652,7 @@ conference_url ={https://www.caiac.ca/en/conferences/canadianai-2026/home}
 
 @inproceedings{benchikh26,
   title = {Contextual Stance-Aware Semantic Graph Learning for Fake News Detection},
-  author = {Benchikh, Djamila and Allili, Mohand Said and Etienne Gael Tajeuna},
+  author = {Benchikh, Djamila and Allili, Mohand Said and Tajeuna, Etienne Gael},
   pages = {1005--1011},
   abstract = {The rapid spread of disinformation on social networks threatens public trust and democratic processes. We propose a unified framework for early detection of emerging false narratives by combining context-aware graph modeling with semantic analysis. Our method builds interaction graphs where posts are nodes connected by stance relations (agreement or disagreement). In parallel, a semantic module extracts fine-grained linguistic cues from each post. These signals are fused via a graph neural network that jointly models early diffusion patterns and content semantics to identify deceptive posts at their inception. Experiments on benchmark datasets show that our approach outperforms existing baselines, highlighting the effectiveness of integrating stance-aware graph representations with semantic understanding for scalable disinformation detection.}
 }
@@ -883,7 +883,7 @@ conference_url ={https://www.caiac.ca/en/conferences/canadianai-2026/home}
 
 @inproceedings{vayghan26,
   title = {Clinical Trial Recommendation with LLM-Based Query Generation and Graph-Based Pairwise Re-ranking},
-  author = {vayghan, Mehrnaz Senobari and Mohammed, Emad A. and far, Behrouz H.},
+  author = {Vayghan, Mehrnaz Senobari and Mohammed, Emad A. and Far, Behrouz H.},
   pages = {1224--1229},
   abstract = {Clinical trials are essential for drug development and advancing medical treatments. However, many fail due to the challenges of patient recruitment, as identifying suitable participants is both expensive and time-consuming. Recent advances in large language models have demonstrated strong potential in healthcare settings, offering a promising way to automate this process. In this study, we propose an LLM-based recommendation pipeline that suggests a ranked list of clinical trials based on patient characteristics. In the first stage, a medical LLM generates focused search queries from patient notes via chain-of-thought prompting. These queries are used to retrieve a candidate set from a large-scale clinical trial corpus via dense semantic search. In the second stage, candidates are then re-ranked via pairwise re-ranking with graph aggregation. We evaluate our pipeline on the TREC Clinical Trials 2021 and 2022 benchmarks. Query-generated retrieval, achieves significant improvements over raw retrieval, with Recall@1000 improving by 33.8% and 46.1% on TREC 2021 and 2022. Pairwise re-ranking with graph aggregation further improves nDCG@10 by 12.8% and 11.9%, P@10 by 11.2% and 10.1%,and MRRby18.2% and 12.3% on TREC 2021 and 2022 respectively. All results are obtained only by using an open-source 8B-parameter model, without task-specific fine-tuning or closed-source API dependence.}
 }
