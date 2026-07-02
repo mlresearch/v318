@@ -8,9 +8,9 @@ issn: 2640-3498
 id: bouzar-benlabiod26a
 month: 0
 tex_title: 'Preface: 50 Years of {Canadian AI}'
-firstpage: ii
-lastpage: x
-page: ii--x
+firstpage: i
+lastpage: ix
+page: i--ix
 order: 2
 cycles: false
 bibtex_author: Bouzar-Benlabiod, Lydia and Leung, Carson K.
