@@ -10,7 +10,7 @@ month: 0
 tex_title: 'Preface: 50 Years of {Canadian AI}'
 firstpage: i
 lastpage: ix
-page: i--ix
+page: i-ix
 order: 2
 cycles: false
 bibtex_author: Bouzar-Benlabiod, Lydia and Leung, Carson K.
