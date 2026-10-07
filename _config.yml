@@ -3,7 +3,7 @@ booktitle: Proceedings of the The 39th Canadian Conference on Artificial Intelli
 shortname: CAI
 year: '2026'
 volume: '318'
-start: &1 2026-05-25
+start: 2026-05-25
 end: 2026-05-29
 published: 2026-06-29
 layout: proceedings
@@ -68,7 +68,7 @@ conference:
   url: https://www.caiac.ca/en/conferences/canadianai-2026/home
   location: Simon Fraser University, Burnaby, British Columbia, Canada.
   dates:
-  - *1
+  - 2026-05-25
   - 2026-05-26
   - 2026-05-27
   - 2026-05-28
